@@ -34,5 +34,11 @@
     "repository":  "AICP/proprietary_vendor_samsung",
     "target_path": "vendor/samsung",
     "revision":      "lp5.0"
+  },
+  {
+    "remote": "github",
+    "repository":  "CyanogenMod/android_packages_apps_SamsungServiceMode",
+    "target_path": "packages/apps/SamsungServiceMode",
+    "revision":      "cm-12.0"
   }
 ]

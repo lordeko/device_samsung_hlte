@@ -36,11 +36,11 @@
         "revision": "cm-12.0"
     },
     {
-        "remote": "github",
-        "repository": "AICP/proprietary_vendor_samsung",
+        "remote": "tm",
+        "repository": "proprietary_vendor_samsung",
         "target_path": "vendor/samsung",
-        "revision": "lp5.0"
-    },
+        "revision": "cm-12.0"
+    }
     {
         "remote": "cm",
         "repository": "android_packages_apps_SamsungServiceMode",

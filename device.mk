@@ -14,6 +14,10 @@
 # limitations under the License.
 #
 
+# Boot animation
+TARGET_SCREEN_HEIGHT := 1920
+TARGET_SCREEN_WIDTH := 1080
+
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
 # Get non-open-source specific aspects
@@ -21,6 +25,11 @@ $(call inherit-product-if-exists, vendor/samsung/hlte/hlte-vendor.mk)
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
+
+## Device identifier. This must come after all inclusions
+PRODUCT_NAME := liquid_hlte
+PRODUCT_BRAND := samsung
+PRODUCT_MODEL := Note 3
 
 # Common hlte
 $(call inherit-product, device/samsung/hlte-common/hlte.mk)

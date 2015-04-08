@@ -18,10 +18,10 @@
         "revision": "cm-12.1"
     },
     {
-        "remote": "cm",
-        "repository": "android_device_samsung_hlte-common",
+        "remote": "gh",
+        "repository": "lordeko/android_device_samsung_hlte-common",
         "target_path": "device/samsung/hlte-common",
-        "revision": "cm-12.1"
+        "revision": "ls5.1"
     },
     {
         "remote": "cm",

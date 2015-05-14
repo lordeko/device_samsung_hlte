@@ -24,10 +24,10 @@
         "revision": "ls5.1"
     },
     {
-        "remote": "cm",
-        "repository": "android_kernel_samsung_hlte",
+        "remote": "bb",
+        "repository": "arter97/android_kernel_samsung_msm8974",
         "target_path": "kernel/samsung/hlte",
-        "revision": "cm-12.1"
+        "revision": "hlte_cm"
     },
     {
        "remote": "cm",

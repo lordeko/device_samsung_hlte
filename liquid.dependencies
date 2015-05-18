@@ -18,10 +18,10 @@
         "revision": "lp5.1"
     },
     {
-        "remote": "gh",
-        "repository": "DirtyUnicorns/android_kernel_samsung_hlte",
+        "remote": "cm",
+        "repository": "android_kernel_samsung_hlte",
         "target_path": "kernel/samsung/hlte",
-        "revision": "lollipop-caf"
+        "revision": "cm-12.1"
     },
     {
        "remote": "cm",
